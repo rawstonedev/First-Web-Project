@@ -11,12 +11,16 @@ body {
     margin: 0;
 }
 
-.header {
-    display: flex;
-    justify-content: space-between;
+.header,
+.footer {
     background-color: #1f2937;
     color: whitesmoke;
     padding: 16px 10%;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
 }
 
 .header-link {
@@ -31,6 +35,10 @@ body {
 
 .header-logo {
     font-weight: bold;
+}
+
+.footer {
+    text-align: center;
 }
 
 .content {
