@@ -1,5 +1,6 @@
 * {
     border: 1px solid red;
+    font-family: 'Roboto', sans-serif;
 }
 
 body {
@@ -8,6 +9,28 @@ body {
     height: 100vh;
     justify-content: space-between;
     margin: 0;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    background-color: #1f2937;
+    color: whitesmoke;
+    padding: 16px 10%;
+}
+
+.header-link {
+    display: flex;
+    gap: 16px;
+}
+
+.header-link div a{
+    color: whitesmoke;
+    text-decoration: none;
+}
+
+.header-logo {
+    font-weight: bold;
 }
 
 .content {
